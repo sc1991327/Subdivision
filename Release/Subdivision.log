@@ -1,0 +1,53 @@
+﻿Build started 2012/4/11 9:39:13.
+     1>Project "C:\Users\sc\Desktop\Subdivision\Subdivision.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Subdivision.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         d:\program\VS2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _VC80_UPGRADE=0x0710 /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\Subdivision.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         d:\program\VS2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _VC80_UPGRADE=0x0710 /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\Subdivision.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ChildFrm.cpp MainFrm.cpp Subdivision.cpp SubdivisionDoc.cpp SubdivisionView.cpp lib\arcball\Arcball.cpp lib\arcball\Camera.cpp lib\arcball\Matrix44.cpp lib\arcball\Quaternion.cpp lib\arcball\Vector3d.cpp lib\arcball\Viewport.cpp MeshSubdivision.cpp Mesh3D.cpp
+         ChildFrm.cpp
+         MainFrm.cpp
+         Subdivision.cpp
+         SubdivisionDoc.cpp
+         SubdivisionView.cpp
+     1>SubdivisionView.cpp(1319): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\VS2010\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+         Arcball.cpp
+         Camera.cpp
+         Matrix44.cpp
+         Quaternion.cpp
+         Vector3d.cpp
+         Viewport.cpp
+         MeshSubdivision.cpp
+         Mesh3D.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0710 /D _AFXDLL /l"0x0409" /IRelease\ /nologo /fo"Release\Subdivision.res" Subdivision.rc 
+       Link:
+         d:\program\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\Subdivision.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\Subdivision.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\sc\Desktop\Subdivision\Release\Subdivision.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Release\Subdivision.lib" /MACHINE:X86 Release\Subdivision.res
+         Release\ChildFrm.obj
+         Release\MainFrm.obj
+         Release\stdafx.obj
+         Release\Subdivision.obj
+         Release\SubdivisionDoc.obj
+         Release\SubdivisionView.obj
+         Release\Arcball.obj
+         Release\Camera.obj
+         Release\Matrix44.obj
+         Release\Quaternion.obj
+         Release\Vector3d.obj
+         Release\Viewport.obj
+         Release\MeshSubdivision.obj
+         Release\Mesh3D.obj
+         Subdivision.vcxproj -> C:\Users\sc\Desktop\Subdivision\Release\Subdivision.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Release\Subdivision.exe;#1" /manifest res\Subdivision.manifest Release\Subdivision.exe.intermediate.manifest d:\program\VS2010\VC\Include\Manifest\dpiaware.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Subdivision.unsuccessfulbuild".
+         Touching "Release\Subdivision.lastbuildstate".
+     1>Done Building Project "C:\Users\sc\Desktop\Subdivision\Subdivision.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:23.73
